@@ -11,7 +11,3 @@ This README would normally document whatever steps are necessary to get your app
 ### Setup ###
 
 * Coded in Java using Eclipse swing designer
-
-
-* Repo owner or admin
-* Other community or team contact
