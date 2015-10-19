@@ -22,12 +22,10 @@ import com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException;
 
 public class SQL {
 	
-//	static String host ="jdbc:mysql://localhost/covenant";
-//	static String username = "dadunn95";
-//	static String password = "Jam290995";
-	static String host ="jdbc:mysql://68.178.143.43/CCCconsole";
-	static String username = "CCCconsole";
-	static String password = "Jam290995#";
+
+	static String host =  "   jdbc:mysql:// INSERT YOUR DATABASE HERE"   // Original info obscured for Security reasons
+	static String username = "INSERT USERNAME HERE";
+	static String password = "INSERT PASSWORD HERE";
 	public static String userFname;
 	public static String userLname;
 	public static String message = "";
@@ -944,7 +942,7 @@ public static void PopulateTable(){
 		}
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
-		//CreateUser("Kayla","Dunn","kaykit95@gmail.com");
+		//CreateUser("Kayla","Dunn","kaykit95@gmail.com");  TESTING PURPOSES
 		String name, surname,email,user,password;
 		System.out.print("Enter your desired username: ");
 		user = scan.next();
